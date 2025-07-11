@@ -47,7 +47,7 @@ if __name__ == "__main__":
 
         print("Get predict result.")
         for image_id in tqdm(image_ids):
-            image_path  = os.path.join(VOCdevkit_path, "images-zong/"+image_id+".jpg")
+            image_path  = os.path.join(VOCdevkit_path, "images/"+image_id+".jpg")
             image       = Image.open(image_path)
             if map_vis:
                 image.save(os.path.join(map_out_path, "images-optional/" + image_id + ".jpg"))
@@ -58,7 +58,7 @@ if __name__ == "__main__":
         print("Get ground truth result.")
         for image_id in tqdm(image_ids):
             with open(os.path.join(map_out_path, "ground-truth/"+image_id+".txt"), "w") as new_f:
-                root = ET.parse(os.path.join(VOCdevkit_path, 'Annotations-zong/'+image_id+".xml")).getroot()
+                root = ET.parse(os.path.join(VOCdevkit_path, 'Annotations/'+image_id+".xml")).getroot()
                 for obj in root.findall('object'):
                     difficult_flag = False
                     if obj.find('difficult')!=None:
