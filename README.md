@@ -29,6 +29,12 @@ r5u8
 
 Snowy-weather：https://universe.roboflow.com/weatherdetection/snowy-weather
 
+Of course, you can use the dataset that we have prepared.
+Here are the links to the datasets that we have compiled.
+
+https://pan.baidu.com/s/1YsbyQBW5h0V_M_NWjlOPmg?
+pwd=1234
+
 ## Test
 
 ```
