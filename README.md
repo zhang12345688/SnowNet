@@ -23,7 +23,10 @@ The best path weights are stored in Baidu Cloud Drive and can be obtained via th
 Extraction code: 1234
 
 ## Datasets
-RSOD:https://pan.baidu.com/s/1dCTJf4NQ4u7Ai-gK9fYuiA&nbsp; r5u8
+RSOD:https://pan.baidu.com/s/1dCTJf4NQ4u7Ai-gK9fYuiA&nbsp
+r5u8
+
+
 Snowy-weather：https://universe.roboflow.com/weatherdetection/snowy-weather
 
 ## Test
