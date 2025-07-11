@@ -7,7 +7,7 @@ from nets.yolo_training import weights_init
 from utils.utils_bbox import make_anchors
 
 from improve.deform import DeformConv2d
-from improve.MAR import LFEM, MFFM, SFRM
+from improve.AMR import LFEM, MFFM, SFRM
 from improve.CFI import CFIBlock
 
 def fuse_conv_and_bn(conv, bn):
