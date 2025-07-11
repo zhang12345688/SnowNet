@@ -44,3 +44,5 @@ python map-sw.py
 ## Note
 This code is directly related to the manuscript we are currently submitting to The Visual Computer.
 
+It is worth noting that, at present, we are releasing only the inference code and the test dataset; the training code and training datasets will be made publicly available upon official publication of the paper. 
+
