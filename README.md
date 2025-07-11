@@ -41,5 +41,6 @@ pwd=1234
 python map-rsod.py
 python map-sw.py
 ```
-## License
-The codes and the pretrained model in this repository are under the MIT license as specified by the LICENSE file.<br>
+## Note
+This code is directly related to the manuscript we are currently submitting to The Visual Computer.
+
